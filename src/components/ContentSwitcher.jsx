@@ -50,9 +50,9 @@ const CreativeProjectsContent = () => (
     <>
         <h1 className="text-4xl font-bold mb-4">Creative & Projects</h1>
         <p className="text-lg leading-relaxed mb-12">
-            My <a href="#" className="underline text-gray-800 hover:text-gray-600">creative website</a> is under construction. In the meantime, you can check out my
-            <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1">CV</a> and
-            <a href="https://github.com/noemi00" className="underline text-gray-800 hover:text-gray-600 ml-1">GitHub</a>.
+            My <a href="#" className="underline text-gray-800 hover:text-gray-600" target="_blank">creative website</a> is under construction. In the meantime, you can check out my
+            <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1" target="_blank">CV</a> and
+            <a href="https://github.com/noemi00" className="underline text-gray-800 hover:text-gray-600 ml-1" target="_blank">GitHub</a>.
         </p>
     </>
 );
