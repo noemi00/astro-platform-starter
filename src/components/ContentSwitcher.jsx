@@ -52,7 +52,7 @@ const CreativeProjectsContent = () => (
         <p className="text-lg leading-relaxed mb-12">
             My <a href="#" className="underline text-gray-800 hover:text-gray-600">creative website</a> is under construction. In the meantime, you can check out my
             <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1">CV</a> and
-            <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1">GitHub</a>.
+            <a href="https://github.com/noemi00" className="underline text-gray-800 hover:text-gray-600 ml-1">GitHub</a>.
         </p>
     </>
 );
