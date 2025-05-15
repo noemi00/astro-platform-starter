@@ -32,7 +32,10 @@ const AboutContent = () => (
         <ScrambleText text="Noemi Roos" />
         <p className="text-xl mb-8">2000 / F / AMS, ZÜR, BKK</p>
         <p className="text-lg leading-relaxed mb-12">
-            Hi, I'm an AI enthusiast and data science graduate with a focus on projects that blend pragmatism with imagination. My background combines technical training in artificial intelligence with a sense of structure, clarity, and exploration. Whether through code, visuals, or narrative, I'm drawn to work that bridges the digital and the real — in ways that invite both technical depth and a human-centered approach. I enjoy learning new skills and continuously staying up to date with emerging trends.
+            Hi, I'm an AI enthusiast and data science graduate with a focus on projects that blend pragmatism with imagination. My background combines technical training in artificial intelligence with a sense of structure, clarity, and exploration. Whether through code, visuals, or narrative, I'm drawn to work that bridges the digital and the real — in ways that invite both technical depth and a human-centered approach.
+        </p>
+        <p className="text-lg leading-relaxed mb-12">
+            Outside of work, I enjoy picking up new skills, staying up to date with emerging trends, gaming, reading, and making art.
         </p>
     </>
 );
@@ -50,9 +53,10 @@ const CreativeProjectsContent = () => (
     <>
         <h1 className="text-4xl font-bold mb-4">Creative & Projects</h1>
         <p className="text-lg leading-relaxed mb-12">
-            My <a href="#" className="underline text-gray-800 hover:text-gray-600" target="_blank">creative website</a> is under construction. In the meantime, you can check out my
-            <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1" target="_blank">CV</a> and
-            <a href="https://github.com/noemi00" className="underline text-gray-800 hover:text-gray-600 ml-1" target="_blank">GitHub</a>.
+            My <a href="#" className="underline text-gray-800 hover:text-gray-600">creative website</a> is under construction. In the meantime, you can check out my
+            <a href="#" className="underline text-gray-800 hover:text-gray-600 ml-1">CV</a>,
+            <a href="https://github.com/noemi00" target="_blank" rel="noopener noreferrer" className="underline text-gray-800 hover:text-gray-600 ml-1">GitHub</a> or
+            <a href="https://www.goodreads.com/review/list/167495262?ref=nav_mybooks" target="_blank" rel="noopener noreferrer" className="underline text-gray-800 hover:text-gray-600 ml-1">Goodreads</a>.
         </p>
     </>
 );
